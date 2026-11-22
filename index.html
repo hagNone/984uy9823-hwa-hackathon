@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="masthead">
+      <p class="eyebrow">The official counter</p>
+      <h1 class="wordmark">ABDUL</h1>
+    </header>
+
+    <section class="clock-card" aria-label="Live clock">
+      <p class="label">Local time</p>
+      <p class="time" id="clock">
+        <span id="hh">00</span>:<span id="mm">00</span>:<span id="ss">00</span>
+      </p>
+      <p class="date" id="date">—</p>
+    </section>
+
+    <section class="counter-card" aria-label="Abdul counter">
+      <p class="label">Abdul sightings</p>
+      <p class="count" id="count">0</p>
+      <div class="actions">
+        <button class="btn primary" id="inc">+1 Abdul</button>
+        <button class="btn ghost" id="rnd">Abdul!</button>
+        <button class="btn ghost" id="rst">Reset</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
